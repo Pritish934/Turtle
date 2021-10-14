@@ -1,0 +1,15 @@
+from turtle import *
+pensize(7)
+def draw_circles(x,y,c):
+    penup()
+    goto(x,y)
+    pendown()
+    color(c)
+    circle(30,360)
+draw_circles(0,0,'blue')
+draw_circles(60,0,'black')
+draw_circles(120,0,'red')
+draw_circles(90,-30,'green')
+draw_circles(30,-30,'yellow')
+hideturtle()
+done()
